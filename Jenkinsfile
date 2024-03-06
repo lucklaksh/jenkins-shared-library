@@ -1,9 +1,9 @@
 @Library('jenkins-shared-library')
-pipeline{
+pipeline {
   agent any
-  stages{
+  stages {
     stage('print'){
-      steps{
+      steps {
         helloWorld()
       }
     }
